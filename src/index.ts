@@ -1,10 +1,10 @@
-// import {CreateNavigationBar} from './Navigation/NavigationBar';
-// import {RouterComponent} from '../Router/RouterComponent';
+import { Router } from "../router";
+import { createNavigation } from "./Navigation/navigationBar";
 
-// let NavigationBar = document.getElementById("navigationBarContainer");
-// CreateNavigationBar(NavigationBar)
+ let navigationBar = document.getElementById("navigationContainer");
+ createNavigation(navigationBar as HTMLDivElement)
 
-// var par = document.getElementById("contentContainer")
-// var router = new RouterComponent();
+var contentContainer = document.getElementById("contentContainer")
+var router = new Router();
 
-// router.openMainPage(par);
+ router.navigateToMainPage(contentContainer as HTMLDivElement);
