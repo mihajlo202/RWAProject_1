@@ -1,3 +1,32 @@
 {
-  
+    "WorkType": [
+        {
+          "id": 1,
+          "name": "Radnik"
+        },
+        {
+          "id": 2,
+          "name": "Sadnja"
+        },
+        {
+          "id": 3,
+          "name": "Čuvanje stoke"
+        },
+        {
+          "id": 4,
+          "name": "Košenje"
+        },
+        {
+          "id": 5,
+          "name": "Rad u plasteniku"
+        },
+        {
+          "id": 6,
+          "name": "Okopavanje"
+        },
+        {
+          "id": 7,
+          "name": "Mehanizacija"
+        }
+      ]
 }

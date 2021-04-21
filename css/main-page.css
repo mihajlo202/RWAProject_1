@@ -1,0 +1,266 @@
+body{
+    background-image: url("../resources/5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#contentContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rightMenuContent
+{
+    height: auto;
+    width: 70%;
+
+}
+
+.leftMenuContent
+{
+    height: 450px;
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 3%;
+    margin-right: 30px;
+}
+
+.leftMenuContentTitle
+{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 530;
+    background-color: #c3dee6;
+    border-radius: 3%;
+    color: #153957;
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+    cursor:default;
+}
+
+.leftMenuContentItem
+{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 530;
+    border-radius: 3%;
+    color: #153957;
+    font-family: Arial, Helvetica;
+    font-weight: 500;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.leftMenuContentItem:hover
+{
+    color: rgb(50, 143, 205);
+    transition: 0.3s;
+}
+
+/* 
+.taskItem
+{
+    width: 70%;
+    height: fit-content;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    border-radius: 1%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    opacity: 0.9;
+}
+
+.mainPageNoTask
+{
+    height: 100px;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+}
+
+.taskItemError
+{
+    width: 70%;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    border-radius: 1%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.taskItemErrorWidth
+{
+    width: 500px;
+}
+
+.taskItemErrorNotDone
+{
+    color: #dc3545;
+}
+
+.taskItemErrorDone
+{
+    color: #28a745;
+    height: 120px;
+}
+
+.leftDiv
+{
+    width: 60%;
+    height: 100%;
+}
+
+.rightDiv
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 80px;
+
+}
+
+.taskTextAre
+{
+    float: right;
+    width: 350px;
+    height: 70px;
+    max-width: 350px;
+    max-height: 70px;
+}
+
+.taskLabel
+{
+    font-family: Arial, Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    float: left;
+}
+
+.taskInput
+{
+    height: 35px;
+    float: right;
+}
+
+.btnSuccessTask
+{
+  margin-top: 50px;
+  margin-left: 182px;
+  border-radius: 2%;
+  width: 110px;
+  margin-left: 97px;
+} 
+
+.doneNotDone
+{
+    height: 100%;
+    width: 100%;
+}
+
+.TaskContainerLeftMyTask
+{
+    align-items: initial;
+}
+
+
+.btnSuccessMyTask
+{
+    width: 110px;
+    margin-left: 97px;
+}
+
+.TaskContainerLeftWorkerInfo
+{
+    align-items: initial;
+    margin-top: 25px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.inputDivLabelMyTaskPage
+{
+    font-family: "Arial, Helvetica";
+    font-size: 17px;
+    font-weight: 600;
+    float: left;
+}
+
+.intputDivInputMyTaskPage
+{
+    height: 35px;
+    float: right;
+}
+
+.taskItemTitle
+{
+    font-family: Arial, Helvetica;
+    color: yellowgreen;
+}
+
+.taskItemJobIcon
+{
+    width: 100px;
+    height: 100px;
+}
+
+.taskButton
+{
+    width: 100px;
+    height: 50px;
+    margin-left: 106px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+}
+*/
