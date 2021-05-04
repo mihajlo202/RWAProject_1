@@ -1,0 +1,52 @@
+.main-content-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.main-item-container{
+    min-width: 500px;
+    max-width: 600px;
+    height: 700px;
+    flex-grow: 1;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-item-container:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.main-item{
+    width: 80%;
+    height: 80%;
+}
+
+.main-item-image{
+    width: 100%;
+    height: 60%;
+}
+
+.main-item-description{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-item-description p{
+    text-align: center;
+    font-size: 30px;
+}
+

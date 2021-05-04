@@ -1,3 +1,3 @@
 export const enviromentVariables = {
-    URL_WORKTYPES: 'http://localhost:3000/WorkType'
+    URL_DB: 'http://localhost:3000/'
 }

@@ -1,10 +1,4 @@
-import { Router } from "../router";
-import { createNavigation } from "./Navigation/navigationBar";
+import { MainModule } from "../modules/main-module";
 
- let navigationBar = document.getElementById("navigationContainer");
- createNavigation(navigationBar as HTMLDivElement)
-
-var contentContainer = document.getElementById("contentContainer")
-var router = new Router();
-
- router.navigateToMainPage(contentContainer as HTMLDivElement);
+const mainModule = new MainModule();
+mainModule.mainView();
