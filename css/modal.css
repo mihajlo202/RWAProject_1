@@ -1,0 +1,150 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-container {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 700px;
+  height: auto;
+}
+
+.title-container
+{
+   height: 150px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content-container
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.modal-content-books
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.modal-content-container-left
+{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.book-image-modal{
+  height: 400px;
+}
+
+.library-image-modal{
+  height: 300px;
+  width: 300px;
+}
+
+.modal-content-container-right
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modalTitle
+{
+  font-style: Arial, Helvetica;
+  font-style: 32px;
+}
+
+
+.author-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.library-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.reseveBook-div{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.book-info-modal{
+  width: 100%;
+font-size: 20px;
+text-align: center;
+
+}

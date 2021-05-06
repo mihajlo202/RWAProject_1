@@ -4,7 +4,7 @@ export interface IUser{
     first_name: string;
     last_name: string;
     library_id: number;
-    member_sice: Date;
+    member_since: string;
 }
 
 export class User implements IUser{
@@ -12,7 +12,7 @@ export class User implements IUser{
     first_name: string;
     last_name: string;
     library_id: number;
-    member_sice: Date;
+    member_since: string;
     
     constructor() {}
 }

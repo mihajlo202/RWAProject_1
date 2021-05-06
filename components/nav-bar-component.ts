@@ -50,7 +50,7 @@ export class NavBarComponent{
         usersItem.className = "nav-item";
         usersItem.innerHTML = "<p>Korisnici</p>";
         usersItem.onclick = (ev) => {
-            this._router.navigateToLibrariesPage();
+            this._router.navigateToUsersPage();
         }
         navBar.appendChild(usersItem);
     }

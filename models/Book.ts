@@ -7,7 +7,7 @@ export interface IBook {
     library_id: number;
     value: number;
     available: boolean;
-    time_taken: Date;
+    time_taken: string;
     user_id: number;
 }
 
@@ -20,7 +20,7 @@ export class Book implements IBook{
     library_id: number;
     value: number;
     available: boolean;
-    time_taken: Date;
+    time_taken: string;
     user_id: number;
     
     constructor() {}

@@ -1,3 +1,326 @@
 {
-
+  "users": [
+    {
+      "id": "1",
+      "last_name": "Antić",
+      "first_name": "Ana",
+      "library_id": 2,
+      "member_since": "14/02/2018"
+    },
+    {
+      "id": "2",
+      "last_name": "Ilić",
+      "first_name": "Boban",
+      "library_id": 1,
+      "member_since": "28/12/2019"
+    },
+    {
+      "id": "3",
+      "last_name": "Mišić",
+      "first_name": "Mila",
+      "library_id": 2,
+      "member_since": "04/03/2017"
+    },
+    {
+      "id": "4",
+      "last_name": "Đorđević",
+      "first_name": "Predrag",
+      "library_id": 3,
+      "member_since": "05/12/2010"
+    },
+    {
+      "id": "5",
+      "last_name": "Milić",
+      "first_name": "Anastasija",
+      "library_id": 1,
+      "member_since": "02/11/2019"
+    },
+    {
+      "id": "6",
+      "last_name": "Krstić",
+      "first_name": "Jovan",
+      "library_id": 1,
+      "member_since": "02/03/2010"
+    },
+    {
+      "id": "7",
+      "last_name": "Milovanović",
+      "first_name": "Mihajlo",
+      "library_id": 2,
+      "member_since": "08/01/2019"
+    },
+    {
+      "id": "8",
+      "last_name": "Petković",
+      "first_name": "Jelena",
+      "library_id": 1,
+      "member_since": "24/01/2014"
+    },
+    {
+      "id": "9",
+      "last_name": "Đorđević",
+      "first_name": "Marija",
+      "library_id": 2,
+      "member_since": "28/03/2010"
+    },
+    {
+      "id": "10",
+      "last_name": "Kostić",
+      "first_name": "Irena",
+      "library_id": 3,
+      "member_since": "25/03/2010"
+    },
+    {
+      "id": "11",
+      "last_name": "Petrović",
+      "first_name": "Petar",
+      "library_id": 2,
+      "member_since": "03/06/2015"
+    },
+    {
+      "id": "12",
+      "last_name": "Aleksić",
+      "first_name": "Katarina",
+      "library_id": 3,
+      "member_since": "08/08/2008"
+    },
+    {
+      "id": "13",
+      "last_name": "Stefanović",
+      "first_name": "Nikola",
+      "library_id": 2,
+      "member_since": "01/09/2016"
+    },
+    {
+      "id": "14",
+      "last_name": "Dimitrijević",
+      "first_name": "Anđela",
+      "library_id": 1,
+      "member_since": "21/05/2018"
+    }
+  ],
+  "libraries": [
+    {
+      "id": 1,
+      "name": "Narodna biblioteka 'Stevan Sremac'",
+      "img": "../resources/narodna_biblioteka.jpg",
+      "address": "Borivoja Gojkovića 9, 18000 Niš",
+      "telephone": "018/511-403",
+      "email": "biblioteka@nbss.rs",
+      "year_opened": "1879.",
+      "description": "Narodna biblioteka „Stevan Sremac“ jedna je od najstarijih kulturnih ustanova u Gradu i prva javna biblioteka u Južnoj Srbiji."
+    },
+    {
+      "id": 2,
+      "name": "Univerzitetska biblioteka 'Nikola Tesla'",
+      "img": "../resources/nikola_tesla.jpg",
+      "address": "Kej Mike Paligorića 2a, 18000 Niš",
+      "telephone": "018/523-421",
+      "email": "info-ubn[at]ni.ac.rs",
+      "year_opened": "18.5.1967.",
+      "description": "Univerzitetska biblioteka 'Nikola Tesla' u Nišu je naučna biblioteka, čiji fond pokriva potrebe svih studijskih grupa Univerziteta u Nišu. Osnovana je 18. maja 1967. godine, a od 1978. godine nosi ime Nikole Tesle."
+    },
+    {
+      "id": 3,
+      "name": "Dečija biblioteka",
+      "img": "../resources/dečja-biblioteka2.jpg",
+      "address": "Lole Ribara 2, 18000 Niš",
+      "telephone": "018/523‑605",
+      "email": "decijaBiblioteka.rs",
+      "year_opened": "3.3.1950.",
+      "description": ""
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "author": "Paulo Coelho",
+      "genre": "novel",
+      "title": "Alchemist",
+      "img": "../resources/alchemist.jpg",
+      "library_id": 1,
+      "value": 1365,
+      "available": false,
+      "time_placed": "Thursday, April 25, 2019 6:03 PM",
+      "user_id": "14"
+    },
+    {
+      "id": "2",
+      "author": "Paulo Coelho",
+      "genre": "novel",
+      "title": "Aleph",
+      "img": "../resources/aleph.jpg",
+      "library_id": 1,
+      "value": 1154,
+      "available": false,
+      "time_taken": "Wed, 05 May 2021 08:55:37 GMT",
+      "user_id": "1"
+    },
+    {
+      "id": "3",
+      "author": "Dan Brown",
+      "genre": "mystery",
+      "title": "Angels & Demons",
+      "img": "../resources/andjeli_i_demoni.jpg",
+      "library_id": 2,
+      "value": 1122,
+      "available": false,
+      "time_taken": "Wed, 05 May 2021 13:02:26 GMT",
+      "user_id": "1"
+    },
+    {
+      "id": "4",
+      "author": "Jo Nesbo",
+      "genre": "thriller",
+      "title": "The Bat",
+      "img": "../resources/bat.jpg",
+      "library_id": 2,
+      "value": 1777,
+      "available": false,
+      "time_placed": "Thursday, April 25, 2019 6:04 PM",
+      "user_id": "3"
+    },
+    {
+      "id": "5",
+      "author": "Haruki Murakami",
+      "genre": "fiction",
+      "title": "Wind Up Bird Chronicle",
+      "img": "../resources/bird.jpg",
+      "library_id": 1,
+      "value": 1836,
+      "available": true
+    },
+    {
+      "id": "6",
+      "author": "Jose Saramago",
+      "genre": "thriller",
+      "title": "Blindness",
+      "img": "../resources/blindness.jpg",
+      "library_id": 1,
+      "value": 2332,
+      "available": false,
+      "user_id": "2",
+      "time_placed": "Thursday, May 2 2018 13:30 PM"
+    },
+    {
+      "id": "7",
+      "author": "Jose Saramago",
+      "genre": "drama",
+      "title": "Cain",
+      "img": "../resources/cain.jpeg",
+      "library_id": 1,
+      "value": 3036,
+      "available": true
+    },
+    {
+      "id": "8",
+      "author": "Stephen King",
+      "genre": "horror",
+      "title": "Carrie",
+      "img": "../resources/carrie.jpg",
+      "library_id": 1,
+      "value": 1322,
+      "available": true
+    },
+    {
+      "id": "9",
+      "author": "Dan Simons",
+      "genre": "mystery",
+      "title": "Da Vinci's Code",
+      "img": "../resources/da_vinci.jpg",
+      "library_id": 2,
+      "value": 1522,
+      "available": true
+    },
+    {
+      "id": "10",
+      "author": "Nicholas Sparks",
+      "genre": "romance",
+      "title": "Dear John",
+      "img": "../resources/dear-john.jpg",
+      "library_id": 3,
+      "value": 7145,
+      "available": true
+    },
+    {
+      "id": "11",
+      "author": "Jose Saramago",
+      "genre": "fiction",
+      "title": "Death With Interruptions",
+      "img": "../resources/death.jpg",
+      "library_id": 1,
+      "value": 1899,
+      "available": true
+    },
+    {
+      "id": "12",
+      "author": "Jostein Gaarder",
+      "genre": "fiction",
+      "title": "Appelsinpiken",
+      "img": "../resources/devojka_sa_pomorandzama.jpg",
+      "library_id": 2,
+      "value": 1913,
+      "available": true
+    },
+    {
+      "id": "13",
+      "author": "Jose Saramago",
+      "genre": "historical",
+      "title": "Elephant's Journey",
+      "img": "../resources/elephant.jpg",
+      "library_id": 1,
+      "value": 1267,
+      "available": true
+    },
+    {
+      "id": "14",
+      "author": "Stephen King",
+      "genre": "crime fiction",
+      "title": "End of Watch",
+      "img": "../resources/end_watch.jpg",
+      "library_id": 1,
+      "value": 1865,
+      "available": true
+    },
+    {
+      "id": "15",
+      "author": "Dan Brown",
+      "genre": "conspiracy fiction",
+      "title": "Inferno",
+      "img": "../resources/inferno.jpg",
+      "library_id": 2,
+      "value": 7199,
+      "available": true
+    },
+    {
+      "id": "16",
+      "author": "Stephen King",
+      "genre": "horror",
+      "title": "It",
+      "img": "../resources/it.jpg",
+      "library_id": 3,
+      "value": 8139,
+      "available": true
+    },
+    {
+      "id": "17",
+      "author": "Dan Brown",
+      "genre": "conspiracy fiction",
+      "title": "Lost Symbol",
+      "img": "../resources/izgubljeni_simbol.jpg",
+      "library_id": 1,
+      "value": 9199,
+      "available": true
+    },
+    {
+      "id": "18",
+      "author": "Haruki Murakami",
+      "genre": "magical realism",
+      "title": "Kafka On The Shore",
+      "img": "../resources/kafka.jpg",
+      "library_id": 2,
+      "value": 16133,
+      "available": true
+    }
+  ]
 }
