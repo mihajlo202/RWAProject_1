@@ -1,3 +1,3 @@
 export const enviromentVariables = {
-    URL_DB: 'http://localhost:3000'
+    URL_DB: 'http://localhost:3001'
 }

@@ -36,8 +36,10 @@ export class BookService {
 
     async getBookByParametarsPromise(text:string, selectorValue:number):Promise<Response> {
         return new Promise((resolve, reject) => {
-            const randomNumber = Math.random() * 10;
-            setTimeout(() => resolve(fetch(`${this.url}/books?title_like=${text}&_limit=${selectorValue}`)), randomNumber);
+            if(selectorValue != -1)
+                resolve(fetch(`${this.url}/books?title_like=${text}&_limit=${selectorValue}`));
+            else
+                resolve(fetch(`${this.url}/books?title_like=${text}`));
         })
     }
 
